@@ -7,7 +7,138 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-color: beige
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.Header {
+  background-color: teal;
+  height: 50%;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: beige;
+  border-style: dotted;
+  text-shadow: 3px 3px fuchsia;
+}
+
+.photo {
+  height: 500px;
+  width: 600px;
+}
+
+.beach-hat {
+  height: 130px;
+  width: 220px;
+}
+
+.mimi1 {
+  height: 130px;
+  width: 220px;
+}
+
+.HatContainer {
+  border-style: inset;
+  background-color: beige;
+  border-color: fuchsia;
+  border-width: 5px;
+  margin: 30px;
+
+}
+
+.MimiContainer {
+  position: relative;
+  z-index: 0;
+}
+
+.default-photo {
+  height: 130px;
+  width: 220px;
+  position: absolute;
+  left: 27%;
+  bottom: 70%;
+  z-index: 2;
+  border-style: none;
+}
+
+.mimi5 {
+ 
+  height: 140px;
+  width: 220px;
+  position: absolute;
+  left: 26%;
+  bottom: 63%;
+  z-index: 2;
+  border-style: none;
+  transform: rotate(-8deg);
+}
+
+.mimi1 {
+
+  height: 100px;
+  width: 150px;
+  transform: rotate(10deg);
+  position: absolute;
+  left: 52%;
+  bottom: 68%;
+  z-index: 2;
+  border-style: none;
+
+}
+
+.mimi2 {
+  height: 140px;
+  width: 220px;
+  transform: rotate(10deg);
+  position: absolute;
+  left: 18%;
+  bottom: 72%;
+  z-index: 2;
+  border-style: none;
+}
+
+.mimi3 {
+  height: 100px;
+  width: 170px;
+  transform: rotate(5deg);
+  position: absolute;
+  left: 58%;
+  bottom: 72%;
+  z-index: 2;
+  border-style: none;
+}
+
+.mimi4 {
+  height: 90px;
+  width: 130px;
+  transform: rotate(5deg);
+  position: absolute;
+  left: 27%;
+  bottom: 63%;
+  z-index: 2;
+  border-style: none;
+}
+
+.MimiPhoto {
+  position: absolute;
+  z-index: 1;
+  margin-left: 400px;
+}
+
+.next-photo {
+  margin-right: -60%;
+  margin-top: 30%;
+  border-radius: 30%;
+  font-size: 25px;
+  background-color: aquamarine;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:fuchsia;
+}
+
+
+
